@@ -88,7 +88,7 @@ let formattedPrice = price.toFixed(2)
 
 const dividedNumber = formattedPrice.split('.')
 
-integerPart.innerHTML = "€ " + dividedNumber[0] + '.'
+integerPart.innerHTML = "€ " + dividedNumber[0] + ','
 decimalPart.innerHTML = dividedNumber [1]
 })
 
