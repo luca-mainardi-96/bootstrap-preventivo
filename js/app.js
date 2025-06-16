@@ -3,9 +3,9 @@
 const selectWork = document.getElementById('inputWork')
 const discountCode = document.getElementById('discountCode')
 const formEstimate = document.getElementById('form')
-let outputPrice = document.getElementById('outputPrice')
-let integerPart = document.getElementById('integerPart')
-let decimalPart = document.getElementById('decimalPart')
+const outputPrice = document.getElementById('outputPrice') // correggere let
+const integerPart = document.getElementById('integerPart')
+const decimalPart = document.getElementById('decimalPart')
 const errorMessage = document.getElementById('codeError')
 
 // options dinamiche
